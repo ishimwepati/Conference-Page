@@ -81,8 +81,6 @@
 
 ## 🚀 Live Demo <a name="live-demo" target="_blank"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://ishimwepati.github.io/Conference-Page/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -91,7 +89,6 @@
 
 ## 🚀 Live Video <a name="video-demo" target="_blank"></a>
 
-> Add a link to your deployed project.
 
 - [Here a Link to the Video](https://www.loom.com/share/700f007d7bfe4d8aba1df39042918067?sid=73e8306f-ec37-475e-a323-6c5d8bfdfdce) 
 
@@ -141,8 +138,6 @@ You can deploy this project using:
 <!-- AUTHORS -->
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Ishimwe Joseph**
 
 - GitHub: [@ishimwepati](https://github.com/ishimwepati)
@@ -153,8 +148,6 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Gallery**
 - [ ] **Participants details**
@@ -181,6 +174,7 @@ Contributions, issues, and feature requests are welcome!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Special acknowledgement to [@microverseinc](https://github.com/microverseinc)
+> Special acknowledgement to [@Cindy Shin in Behance.](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
