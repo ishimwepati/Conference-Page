@@ -10,6 +10,8 @@
     overflow-x: hidden;
   }
 
+  /* Here are the tried codes */
+
   .nav-social {
     display: none;
   }
@@ -66,9 +68,9 @@
 
   .bar {
     display: block;
-    width: 35px;
-    height: 5px;
-    margin: 5px auto;
+    width: 40px;
+    height: 3px;
+    margin: 3px auto;
     transition: all 0.3s ease-in-out;
     background-color: #67798e;
   }
@@ -77,35 +79,45 @@
     opacity: 0;
   }
 
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+  .hamburger.active .bar:nth-child(3) {
+    opacity: 0;
   }
 
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(50deg);
+    margin-left: 970%;
+  }
+
+  .hamburger.active .bar:nth-child(4) {
+    transform: translateY(-8px) rotate(-50deg);
+    margin-left: 970%;
   }
 
   .nav-li {
     position: fixed;
     left: -110%;
-    top: 40px;
+    top: 60px;
     flex-direction: column;
     background-color: #fff;
-    width: 100%;
-    height: 40%;
     transition: 0.3s;
     display: flex;
     gap: 3px;
     font-size: 20px;
-    text-align: left;
     padding-top: 30px;
     font-weight: bold;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
   }
 
   .nav-item {
     gap: 4px;
     margin-top: 10px;
-    margin-left: -6%;
+    margin-left: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
   }
 
   .nav-li.active {
@@ -177,7 +189,18 @@
     padding-bottom: 50px;
   }
 
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background:
       linear-gradient(rgba(59, 62, 69, 0.327), rgba(59, 62, 69, 0.327)),
       url("img/pexels-eva-bronzini-7599547.jpg");
@@ -185,6 +208,7 @@
     margin-top: -5%;
     margin-bottom: 2%;
     padding-bottom: 10%;
+    margin-left: -10%;
   }
 
   .main h2 {
@@ -200,6 +224,10 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: -0.3px;
+  }
+
+  .main a {
+    display: none;
   }
 
   hr {
@@ -220,7 +248,7 @@
   .grid-container-ab {
     max-width: 327px;
     height: 80px;
-    width: 354px;
+    width: 300px;
     margin-top: 3%;
     display: grid;
     grid-template-columns: 1fr;
@@ -240,8 +268,8 @@
 
   .grid-lecture {
     border-radius: 8px;
-    width: 17.53px;
-    height: 20.39px;
+    width: 15.53px;
+    height: 17.39px;
   }
 
   .title h3 {
@@ -250,7 +278,7 @@
     text-align: left;
     margin-bottom: 3%;
     font-size: 12px;
-    margin-left: 15%;
+    margin-left: 22%;
     margin-top: 44%;
   }
 
@@ -433,6 +461,7 @@
   }
 
   .more-mobile p {
+    display: none;
     color: #000;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -445,6 +474,11 @@
 
   .more-mobile img {
     margin-left: 5%;
+    display: none;
+  }
+
+  .more-mobile button {
+    display: none;
   }
 
   .partner {
@@ -610,6 +644,10 @@
   }
 
   .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding-left: 15%;
     padding-right: 20%;
     background:
@@ -619,6 +657,15 @@
     margin-top: -2%;
     margin-bottom: 2%;
     padding-bottom: 5%;
+  }
+
+  .main a {
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -5%;
   }
 
   .main h2 {
@@ -647,12 +694,12 @@
   .about-grid-cont {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 1%;
+    gap: 0.3%;
   }
 
   .grid-container-ab {
     max-width: 327px;
-    height: 231px;
+    height: 210px;
     width: 200px;
     margin-top: 30%;
     display: grid;
@@ -689,9 +736,9 @@
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0.72px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.4px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 6%;
@@ -703,8 +750,6 @@
   }
 
   .main-down-word {
-    padding-top: 3%;
-    text-align: center;
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -713,11 +758,26 @@
     line-height: 28px;
     letter-spacing: -0.2px;
     text-decoration-line: underline;
-    margin-bottom: -2%;
-    margin-left: 3%;
   }
 
   /* ----------------------Featured ---------------------- */
+  .featured-speakers-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1%;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .feat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20%;
+  }
 
   .featured-speakers-heading h5 {
     color: #000;
@@ -729,23 +789,6 @@
     letter-spacing: -0.3px;
     margin-bottom: 1px;
     margin-top: -45px;
-    margin-right: -10%;
-    margin-left: 21%;
-  }
-
-  .featured-speakers-heading {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 1%;
-    background-color: #fff;
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 8%;
-  }
-
-  .featured-speakers-heading hr {
-    margin-right: 90%;
   }
 
   #line {
@@ -771,19 +814,11 @@
 
   #featured-speakers {
     width: 100%;
-    padding-left: 8%;
   }
 
   .featured-speakers-section {
     display: inline-flex;
     flex-direction: column;
-  }
-
-  .featured-speakers {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: flex-start;
   }
 
   .speakers {
@@ -796,13 +831,13 @@
 
   .speakers .images {
     width: 40%;
-    margin-right: 1rem;
+    margin-right: -4%;
   }
 
   .speaker-texts {
     display: flex;
     flex-direction: column;
-    gap: 8%;
+    gap: 5%;
     justify-content: center;
   }
 
@@ -828,7 +863,7 @@
     color: #f78c89;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
-    font-style: normal;
+    font-style: italic;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: -1.35px;
@@ -842,9 +877,9 @@
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: -0.7px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.15px;
     margin-top: -1%;
     padding-right: 50%;
   }

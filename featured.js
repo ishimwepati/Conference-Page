@@ -13,7 +13,7 @@ function generateFeaturedSpeakers(image, speakerName, proffesions, speech) {
                       <p class="proffesions">${proffesions}</p>
                       <div class="line"></div>
                       <p class="speech">${speech}</p>
-                  </div>
+              </div>
               </div>
           </div>
         </div>
