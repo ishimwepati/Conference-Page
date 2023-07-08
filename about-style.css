@@ -1,0 +1,287 @@
+
+/* -------------- Desktop Version About Page Start--------------*/
+@media only screen and (min-width: 768px) {
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }  
+    .nav-social {
+       background-color: #3E3E3E; 
+       height:20px;
+       text-align: right;
+       padding-right: 15%;
+       padding-top: 0.5%;
+       padding-bottom: 1%;
+    }
+    .nav-social span {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        padding-left: 2%;
+    }
+    
+    .nav-social #facebook {
+        height: 20px;
+        width: 12px;
+        margin-right: 10px;
+    }
+    .nav-social #twitter {
+        height: 20px;
+        width: 20px;
+        margin-left: 1%;
+    }
+    
+    .nav-menu{
+        background: #FFF;
+        height: 60px;
+    }
+    
+    .nav-branding {
+        margin-left: 12%;
+        margin-top: 1%;
+        margin-right: 10%;
+      }
+    
+      .nav-li li {
+        list-style: none;
+      }
+    
+      .nav-li a {
+        text-decoration: none;
+      }
+    
+      .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 24px;
+      }
+      .nav-li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 65px;
+        font-size: 20px;
+        margin-left: 1%;
+        margin-right: 35%;
+        margin-top: 2%;
+      }
+      .nav-link {
+        transition: 0.7s ease;
+        color: #868686;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+      }
+      .nav-link:hover {
+        color: #F07F7E;
+      }
+      #cc-campaign{
+        color: #EC4327;
+        border: 5px solid #EC4327;
+        padding: 10px;
+      }
+      .home{
+        width: 100vw;
+        background: linear-gradient(rgba(217, 217, 217, 0.927), rgba(217, 217, 217, 0.889)),
+        url('img/conference.jpeg');
+        background-size: cover;
+      }
+    
+      .home h1{
+        margin-top: 40px;
+        padding-top: 90px ;
+        color: #EC4327;
+        font-family: 'Lato', sans-serif;
+        font-size: 70px;
+        font-weight: 1000;
+        margin-bottom: 2%;
+        text-align: center;
+        
+      }
+      .home p{
+        padding: 3% 3% 3% 3%;
+      }
+      .word{
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 10px;
+        background-color: #F7F7F8;
+        text-align: center;
+        color: #000;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+      }
+
+      h2 {
+        font-family: 'Lato', sans-serif;
+        color: #5F5F5F;
+        text-align: center;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 25px;
+        letter-spacing: 0.34px;
+        padding-bottom: 100px;
+      }
+      .last-word {
+        font-size: 20px;
+        color: #515151;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+      }
+    .main{
+      padding-left: 15%; 
+      padding-right: 20%;
+      background-size: cover;
+      margin-top: -2%;
+      margin-bottom: 2%;
+      padding-bottom: 5%;
+    }
+    .main h2{
+      padding-top: 5%;
+      padding-bottom: 0.5%;
+      text-align: center;
+      color: #2C2C2C;
+      font-family: 'Lato', sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: -0.3px;
+    }
+    .titlee  hr {
+      color: #EC4327;
+      width: 50px;
+      height: 3px;
+      background-color: #EC4327;
+      border-color: #EC4327;
+    }
+    
+    .main p{
+        margin-top: -10px;
+        color: #838383;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: -0.48px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .main img{
+        margin-left: 30%;
+        margin-right: 20;
+    }
+
+    .separator-line hr{
+        margin-top: 3%;
+        margin-bottom: -5%;
+        padding-left: 50%; 
+        width: 100vw;
+        color: #838383;
+        height: 3px;
+        margin-left: -560px;
+        background-color: #838383;
+        border-color: #838383;;
+    }
+    .past-event hr{
+      color: #EC4327;
+      width: 50px;
+      height: 3px;
+      background-color: #EC4327;
+      border-color: #EC4327;
+    }
+    .past-event h4{
+        color: #2C2C2C;
+        font-family: 'Lato', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.9px;
+        text-align: center;
+    }
+    .past-event p{
+      color: #838383;
+      text-align: center;
+      font-family: Lato;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing: -0.48px;
+    }
+    .past-images{
+      margin-left: 20%;
+      margin-right: 20%;
+      padding-bottom: 4%;
+    }
+
+    /* End ----------------------Featured ---------------------- */
+    
+    .partner p{
+      color: #8F8F91;
+      font-family: Lato;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: -0.3px;
+      text-align: center;
+      padding-top: 2%;
+      }
+    
+    .partner{
+      background-color: #414246;
+    }
+    .images-partner{
+      padding-left: 12%;
+      padding-right: 12%;
+      padding-top: -1%;
+      padding-bottom: 2%;
+    }
+    .images-partner img{
+      padding-left: 3%;
+    }
+    
+    .big-footer{
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      grid-template-rows: 1fr; 
+      padding-bottom: 3%;
+      background-color: #414246;
+    }
+    .image{
+      text-align: right;
+      padding-right: 15%;
+      padding-top: 9%;
+    }
+    .text{
+      padding-top: 4%;
+      padding-right: 20%;
+      color: #FFF;
+      font-family: Lato;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: -0.56px;
+        
+    }
+    }
+    /* -------------- Desktop Versin End Page Start--------------*/
