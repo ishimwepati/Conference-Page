@@ -35,7 +35,7 @@ function generateSpeakersContent() {
       image: './img/speaker1.png',
       speakerName: 'Ishimwe Joseph',
       proffesions: 'Fullstack developer in MERN stack with 1 year experience',
-      speech: 'Joseph studies commons-based peer production, and published h',  
+      speech: 'Joseph studies commons-based peer production, and published h',
     },
     {
       image: './img/speaker3.png',
@@ -47,7 +47,7 @@ function generateSpeakersContent() {
       image: './img/speaker1.png',
       speakerName: 'Ishimwe Joseph',
       proffesions: 'Fullstack developer in MERN stack with 1 year experience',
-      speech: 'Joseph studies commons-based peer production, and published h',  
+      speech: 'Joseph studies commons-based peer production, and published h',
     },
     {
       image: './img/speaker1.png',
@@ -59,7 +59,7 @@ function generateSpeakersContent() {
       image: './img/speaker2.png',
       speakerName: 'Ishimwe Joseph',
       proffesions: 'Fullstack developer in MERN stack with 1 year experience',
-      speech: 'Benkler studies commons-based peer production, and published h',  
+      speech: 'Benkler studies commons-based peer production, and published h',
     },
   ];
 
